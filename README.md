@@ -11,7 +11,7 @@ Written in python3, with no additional libraries. I may want to revisit this
 project at some point and try implementing the classifier with scikit-learn.
 
 ### Included files:
-* [`HW2-6data.html`](./HW2-6data.html) has the problem specification and the
+* [`HW2-6data.html`](http://htmlpreview.github.io/?https://github.com/cub01d/triclassify/blob/master/HW2-6data.html) has the problem specification and the
  format of the training and testing data sets.
 * `testingN.txt` and `trainingN.txt`: corresponding testing and training data 
 sets.
