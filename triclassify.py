@@ -2,18 +2,11 @@
 # Kenneth Chan
 # kc135576@cs.ucsb.edu
 # CS165B Spring 2017
-import argparse
 import sys
 
-# parse args
-p = argparse.ArgumentParser()
-p.add_argument("traindata")
-p.add_argument("testdata")
-args = p.parse_args()
-
 # file names
-training_data_file = args.traindata
-testing_data_file = args.testdata
+training_data_file = sys.argv[1]
+testing_data_file = sys.argv[2]
 
 # training data parameters
 dim = None
